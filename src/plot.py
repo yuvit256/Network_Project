@@ -28,6 +28,6 @@ def plot_packet_sizes(pcap_file):
 
 if __name__ == "__main__":
     # Path to the PCAP file
-    pcap_file = "/home/yuval/Desktop/Python/nc_4/ws/hi.pcapng"
+    pcap_file = "/path_file/file_name.pcapng"
     # Call the function to plot packet sizes over time
     plot_packet_sizes(pcap_file)

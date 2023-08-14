@@ -19,12 +19,12 @@ def compute_ccdf(data):
 
 # Paths to pcap files for different message types
 pcap_paths = {
-    'Text': '/home/yuval/Desktop/Network_Project-main/resources/texts.pcapng',
-    'Video': '/home/yuval/Desktop/Network_Project-main/resources/videos.pcapng',
-    'Image': '/home/yuval/Desktop/Network_Project-main/resources/images.pcapng',
-    'File': '/home/yuval/Desktop/Network_Project-main/resources/files.pcapng',
-    'Audio': '/home/yuval/Desktop/Network_Project-main/resources/audios.pcapng',
-    'AllTypes': '/home/yuval/Desktop/Network_Project-main/resources/alltypes.pcapng'
+    'Text': 'text_file_path',
+    'Video': 'video_file_path',
+    'Image': 'image_file_path',
+    'File': 'file_file_path',
+    'Audio': 'audio_file_path',
+    'AllTypes': 'all_file_path'
 }
 
 # Extract packet sizes and compute CCDF for each message type

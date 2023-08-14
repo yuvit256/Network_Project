@@ -29,4 +29,4 @@ def plot_inter_message_delays(pcap_path):
     
     plt.show()
 
-plot_inter_message_delays("/home/yuval/Desktop/Network_Project-main/resources/videos.pcapng")
+plot_inter_message_delays("file_path")

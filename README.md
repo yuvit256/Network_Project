@@ -1,6 +1,6 @@
 # Network_Project
 
-### Running the code :
+### Running the code : First install matplotlib, numpy and scapy. 
 * Fig2.py : to run Fig2.py you need to change line #31 to the path of your pcap file.
 * Fig3.py : to run Fig3.py you need to change line #32 to the path of your pcap file.
 * Fig4.py : to run Fig4 you need to change lines #22 - #27 to the path of your pcap file as the title at each line specified. 

@@ -1,6 +1,12 @@
 # Network_Project
-## In this assignment we wrote plot.py. 
-### Running the code: to run the code, you need to change line 31 to the path of your pcap file and then you are good to go.
+
+### Running the code :
+* Fig2.py : to run Fig2.py you need to change line #31 to the path of your pcap file.
+* Fig3.py : to run Fig3.py you need to change line #32 to the path of your pcap file.
+* Fig4.py : to run Fig4 you need to change lines #22 - #27 to the path of your pcap file as the title at each line specified. 
+
+
+### What we did :
 We opened 6 WhatsApp groups called: videos, recordings, files, photos, text and everything from everything. In each group we sent its description with some text in between.
 How it works: one sent the messages to each group when in each group we sent a different type of messages while the other recorded the traffic and filtered it according to:
 tcp.port==433 and tls which means we filter according to port 433 which is used for encrypted traffic and also the tls protocol is used to transfer encrypted information exactly like this information is transferred in WhatsApp.
